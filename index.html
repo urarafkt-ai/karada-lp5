@@ -75,6 +75,9 @@ a:focus-visible,summary:focus-visible,.btn:focus-visible{outline:3px solid var(-
 .hero .region-sub{font-size:13px;letter-spacing:.08em;color:var(--brown-soft);font-weight:500;white-space:nowrap}
 .hero h1{font-size:28px;line-height:1.55;letter-spacing:.01em;margin-bottom:16px}
 .hero h1 .l1{display:block;font-size:19px;color:var(--sage-deep);margin-bottom:6px}
+.hero-photo{margin:0 0 14px}
+.hero-photo img{width:100%;border-radius:var(--radius);aspect-ratio:4/3;object-fit:cover;object-position:50% 58%;background:var(--beige)}
+.hero-photo figcaption{font-size:12.5px;color:var(--brown-soft);margin-top:6px}
 .about{background:rgba(255,255,255,.78);border:1px solid var(--line);border-left:5px solid var(--sage);border-radius:var(--radius);padding:14px 16px 6px;margin:0 0 14px}
 .about .about-t{font-size:13px;letter-spacing:.1em;font-weight:700;color:var(--sage-deep);margin-bottom:6px}
 .about p{font-size:15px;line-height:1.85;margin:0 0 .8em}
@@ -212,7 +215,7 @@ footer b{display:block;color:var(--white);font-size:15px;margin-bottom:2px}
   .hero h1{font-size:36px}
   .hero h1 .l1{font-size:23px}
   section{padding:68px 0}
-  .strip{margin:4px 0 20px;padding:0;overflow:visible;display:grid;grid-template-columns:repeat(3,1fr)}
+  .strip{margin:4px 0 20px;padding:0;overflow:visible;display:grid;grid-template-columns:repeat(2,1fr)}
   .strip figure{flex:none}
   .profile{grid-template-columns:200px 1fr;gap:28px}
   .kk-grid{grid-template-columns:repeat(4,1fr)}
@@ -230,6 +233,11 @@ h1,h2{text-wrap:balance}
   <div class="wrap">
     <div class="regions"><span class="region">福岡・福津</span><span class="region-sub">カイロプラクティックの講座案内</span></div>
     <h1><span class="l1">自分のために。家族のために。</span>カイロプラクティックの基本を、学んでみませんか？</h1>
+
+    <figure class="hero-photo" data-img="practice">
+      <img alt="マットの上で、講師の説明を受けながら実技を行う受講の様子" fetchpriority="high">
+      <figcaption>※過去の講座の様子</figcaption>
+    </figure>
 
     <div class="about">
       <div class="about-t">カイロプラクティックとは</div>
@@ -319,10 +327,6 @@ h1,h2{text-wrap:balance}
       </figure>
       <figure data-img="lecture">
         <img alt="受講生に向けて説明する安藤真奈美" loading="lazy">
-        <figcaption>※過去の講座の様子</figcaption>
-      </figure>
-      <figure data-img="practice">
-        <img alt="マットで実技を行う受講の様子" loading="lazy">
         <figcaption>※過去の講座の様子</figcaption>
       </figure>
     </div>
